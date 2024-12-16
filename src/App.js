@@ -1,25 +1,34 @@
 //import react from 'react';
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route
+} from "react-router-dom";
 import Navbar from './components/Navbar';
-import Landing from "./components/Landing";
-import ExpItaliano from './components/Exp-Italiano';
-import QuoteSection from './components/QuoteSection';
-import ChiefSection from './components/ChiefSection';
 import Footer from './components/Footer';
+
+import Home from './pages/Home';
+import Recetas from './pages/Recetas';
+import Menu from './pages/Menu';
+
 
 function App() {
     return (
-   <div className='App'>
-    <Navbar/>
+        <Router>
+ <Navbar/>
     <div className='container main'>
-    <Landing />
-    <ExpItaliano />
-    <QuoteSection />
-    <ChiefSection />
-    
-
+    <Routes>
+        <Route path="/" element={<Home />}/>
+        <Route path="/Recetas" element={<Recetas />} />
+        <Route path="/Menu" element={<Menu />} />
+    </Routes>
+,.,
     </div>
     <Footer />
-   </div>
+
+
+        </Router>
+   
     );
 }
 
