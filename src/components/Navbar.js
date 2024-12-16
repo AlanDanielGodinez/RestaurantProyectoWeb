@@ -38,7 +38,7 @@ export default function Navbar() {
     return (
         <>
             <div className="navbar container">
-                <a href="#!" className="logo">La<span>Dolce</span>Vita</a>
+                <a href="../" className="logo">La<span>Dolce</span>Vita</a>
                 <div className="nav-links">
                     {links.map((link) => (
                         <Link
