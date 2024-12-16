@@ -1,0 +1,9 @@
+# Ignorar node_modules
+node_modules/
+
+# Ignorar otros archivos innecesarios
+.DS_Store
+dist/
+build/
+.env
+*.log
