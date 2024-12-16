@@ -27,7 +27,7 @@ export default function ChiefsSection(){
             especialidad: "Entradas"
         },
         {
-            name: "Francesca Bellini",
+            name: "Frank Bellini",
             img: "/img/top-chiefs/img_5.jpg",
             experiencia: "09 Años",
             especialidad: "Salsas"
