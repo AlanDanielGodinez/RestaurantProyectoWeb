@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 export default function ExpItaliano(){
     const list = [
@@ -21,7 +21,9 @@ export default function ExpItaliano(){
                 ))}
 
                 {/* <p className="info">En La Dolce Vita ofrecemos lo mejor de la cocina italiana tradicional, con ingredientes frescos y auténticos. Ven a disfrutar de un ambiente cálido y sabores que te transportarán al corazón de Italia.</p> */}
-                <button className="btn">Haz tu Reserva</button>
+                <Link to="/reserva">
+                    <button className="btn">Haz tu Reserva</button>  {/* Vinculamos el botón a la página de reservas */}
+                </Link>
             </div>
             
         </div>
