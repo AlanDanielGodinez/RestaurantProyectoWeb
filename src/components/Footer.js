@@ -5,7 +5,7 @@ export default function Footer(){
             <div className="footer-section">
                 <p className="title">La Dolce Vita</p>
                <p>La Dolce Vita no solo es un nombre, es una filosofía: comer bien, disfrutar más y vivir con pasión.</p> 
-             <p>&copy; 2021 | all Rights Reserved</p>           
+             <p>&copy; 2024 | all Rights Reserved</p>           
             </div>
             <div className="footer-section">
                 <p className="title">Contactanos</p>
