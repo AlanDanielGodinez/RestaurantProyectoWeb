@@ -1,7 +1,7 @@
 export default function Menu(){
     return (
         <div>
-            PagINA Menú
+            Pagina Menú
         </div>
 
     )
