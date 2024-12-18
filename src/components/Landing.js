@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 import Imagencustom from "./ImagenCustom"
 
 export default  function Landing(){
@@ -19,7 +19,9 @@ export default  function Landing(){
                 <h1 className="title">Welcome to La Dolce Vita</h1>
                 <p className="info">En La Dolce Vita te invitamos a disfrutar de una experiencia única donde los sabores, la tradición y la pasión italiana se unen para hacer de cada bocado un momento inolvidable</p>
                 {/* <p className="info">En La Dolce Vita ofrecemos lo mejor de la cocina italiana tradicional, con ingredientes frescos y auténticos. Ven a disfrutar de un ambiente cálido y sabores que te transportarán al corazón de Italia.</p> */}
+                <Link to="/menu">
                 <button className="btn">Explorar Menú</button>
+                </Link>
             </div>
             <div className="col galleria">
                 {images.map((src, index) => (
